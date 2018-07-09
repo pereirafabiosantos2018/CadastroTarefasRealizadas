@@ -54,6 +54,12 @@ namespace CadastroTarefasRealizadas
         /// <param name="e"></param>
         private void button2_Click(object sender, EventArgs e)
         {
+            if (comboCategoria.Text.Equals(string.Empty) || textDescricao.Text.Equals(string.Empty))
+            {
+                MessageBox.Show("A categoria e a descrição são necessárias.", "Erro");
+                return;
+            }
+
             //converter a foto em byte[] antes de gravar
             FileInfo arquivoImagem = new FileInfo(pictureFoto.ImageLocation);
             long tamanhoimagem = arquivoImagem.Length;

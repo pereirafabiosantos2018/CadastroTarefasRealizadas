@@ -27,5 +27,16 @@ namespace CadastroTarefasRealizadas
             CadastrarTarefa cadastrarTarefa = new CadastrarTarefa();
             cadastrarTarefa.ShowDialog();
         }
+
+        /// <summary>
+        /// Exibe a janela com as tarefas realizadas
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void tarefaRealizadaToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            VisualizarTarefasRealizadas visualizarTarefasRealizadas = new VisualizarTarefasRealizadas();
+            visualizarTarefasRealizadas.ShowDialog();
+        }
     }
 }

@@ -60,6 +60,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VisualizarTarefasRealizadas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisualizarTarefasRealizadas.Designer.cs">
+      <DependentUpon>VisualizarTarefasRealizadas.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="CadastrarTarefa.resx">
       <DependentUpon>CadastrarTarefa.cs</DependentUpon>
     </EmbeddedResource>
@@ -75,6 +81,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="VisualizarTarefasRealizadas.resx">
+      <DependentUpon>VisualizarTarefasRealizadas.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
