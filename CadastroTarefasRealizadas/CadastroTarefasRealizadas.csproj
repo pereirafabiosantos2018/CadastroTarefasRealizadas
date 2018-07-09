@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BancoDeDados.cs" />
     <Compile Include="CadastrarTarefa.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace CadastroTarefasRealizadas
 {
@@ -23,7 +24,7 @@ namespace CadastroTarefasRealizadas
         /// </summary>
         private void ListarCategorias()
         {
-            
+            SqlConnection conexaoBanco = BancoDeDados.AbrirConexaoBanco();
         }
 
         /// <summary>
