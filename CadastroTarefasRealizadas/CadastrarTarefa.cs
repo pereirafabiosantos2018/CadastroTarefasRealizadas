@@ -24,7 +24,21 @@ namespace CadastroTarefasRealizadas
         /// </summary>
         private void ListarCategorias()
         {
-            SqlConnection conexaoBanco = BancoDeDados.AbrirConexaoBanco();
+            SqlCommand lerCategoriaCommand = new SqlCommand("LerCategorias", BancoDeDados.AbrirConexaoBanco());
+
+            try
+            {
+                SqlDataReader categorias = lerCategoriaCommand.ExecuteReader();
+
+                while (categorias.Read())
+                {
+                    comboCategoria.Items.Add(categorias[0]);
+                }
+            }
+            catch (Exception e1)
+            {
+                MessageBox.Show(e1.Message, "Erro");
+            }
         }
 
         /// <summary>

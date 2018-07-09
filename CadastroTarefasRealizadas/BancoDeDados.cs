@@ -13,12 +13,11 @@ namespace CadastroTarefasRealizadas
             try
             {
                 sqlConnection.Open();
-                MessageBox.Show("Conexão", "A conexão com o banco de dados foi realizada corretamente.");
                 return sqlConnection;
             }
             catch (Exception e1)
             {
-                MessageBox.Show("Erro", e1.Message);
+                MessageBox.Show(e1.Message, "Erro");
                 return null;
             }
         }
