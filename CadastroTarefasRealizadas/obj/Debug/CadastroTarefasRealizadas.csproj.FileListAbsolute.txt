@@ -1,0 +1,11 @@
+D:\Projetos Github\CadastroTarefasRealizadas\CadastroTarefasRealizadas\bin\Debug\CadastroTarefasRealizadas.exe.config
+D:\Projetos Github\CadastroTarefasRealizadas\CadastroTarefasRealizadas\bin\Debug\CadastroTarefasRealizadas.exe
+D:\Projetos Github\CadastroTarefasRealizadas\CadastroTarefasRealizadas\bin\Debug\CadastroTarefasRealizadas.pdb
+D:\Projetos Github\CadastroTarefasRealizadas\CadastroTarefasRealizadas\obj\Debug\CadastroTarefasRealizadas.csprojResolveAssemblyReference.cache
+D:\Projetos Github\CadastroTarefasRealizadas\CadastroTarefasRealizadas\obj\Debug\CadastroTarefasRealizadas.CadastrarTarefa.resources
+D:\Projetos Github\CadastroTarefasRealizadas\CadastroTarefasRealizadas\obj\Debug\CadastroTarefasRealizadas.Inicial.resources
+D:\Projetos Github\CadastroTarefasRealizadas\CadastroTarefasRealizadas\obj\Debug\CadastroTarefasRealizadas.Properties.Resources.resources
+D:\Projetos Github\CadastroTarefasRealizadas\CadastroTarefasRealizadas\obj\Debug\CadastroTarefasRealizadas.csproj.GenerateResource.cache
+D:\Projetos Github\CadastroTarefasRealizadas\CadastroTarefasRealizadas\obj\Debug\CadastroTarefasRealizadas.csproj.CoreCompileInputs.cache
+D:\Projetos Github\CadastroTarefasRealizadas\CadastroTarefasRealizadas\obj\Debug\CadastroTarefasRealizadas.exe
+D:\Projetos Github\CadastroTarefasRealizadas\CadastroTarefasRealizadas\obj\Debug\CadastroTarefasRealizadas.pdb
