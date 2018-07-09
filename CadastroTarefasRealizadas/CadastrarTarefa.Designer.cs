@@ -36,7 +36,9 @@
             this.pictureFoto = new System.Windows.Forms.PictureBox();
             this.button2 = new System.Windows.Forms.Button();
             this.executarAplicativo = new System.Diagnostics.Process();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureFoto)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -60,7 +62,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(22, 242);
+            this.label3.Location = new System.Drawing.Point(22, 214);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(28, 13);
             this.label3.TabIndex = 2;
@@ -77,23 +79,26 @@
             // 
             // textDescricao
             // 
+            this.textDescricao.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textDescricao.Location = new System.Drawing.Point(95, 81);
             this.textDescricao.Name = "textDescricao";
-            this.textDescricao.Size = new System.Drawing.Size(670, 128);
+            this.textDescricao.Size = new System.Drawing.Size(670, 111);
             this.textDescricao.TabIndex = 4;
             this.textDescricao.Text = "";
             // 
             // pictureFoto
             // 
-            this.pictureFoto.Location = new System.Drawing.Point(95, 242);
+            this.pictureFoto.Location = new System.Drawing.Point(6, 19);
             this.pictureFoto.Name = "pictureFoto";
-            this.pictureFoto.Size = new System.Drawing.Size(670, 391);
+            this.pictureFoto.Size = new System.Drawing.Size(658, 317);
+            this.pictureFoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureFoto.TabIndex = 5;
             this.pictureFoto.TabStop = false;
+            this.pictureFoto.DoubleClick += new System.EventHandler(this.pictureFoto_DoubleClick);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(25, 657);
+            this.button2.Location = new System.Drawing.Point(25, 583);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(152, 23);
             this.button2.TabIndex = 7;
@@ -111,24 +116,36 @@
             this.executarAplicativo.StartInfo.UserName = "";
             this.executarAplicativo.SynchronizingObject = this;
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.pictureFoto);
+            this.groupBox1.Location = new System.Drawing.Point(95, 214);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(670, 342);
+            this.groupBox1.TabIndex = 8;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Escolha uma foto (Clique duplo)";
+            // 
             // CadastrarTarefa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 703);
+            this.ClientSize = new System.Drawing.Size(800, 633);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.pictureFoto);
             this.Controls.Add(this.textDescricao);
             this.Controls.Add(this.comboCategoria);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
             this.Name = "CadastrarTarefa";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastrar tarefa";
             this.Load += new System.EventHandler(this.CadastrarTarefa_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureFoto)).EndInit();
+            this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -144,5 +161,6 @@
         private System.Windows.Forms.PictureBox pictureFoto;
         private System.Windows.Forms.Button button2;
         private System.Diagnostics.Process executarAplicativo;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }

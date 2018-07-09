@@ -30,8 +30,8 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.cadastrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.visualizarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tarefaRealizadaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.visualizarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tarefaRealizadaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.sobreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
@@ -57,6 +57,13 @@
             this.cadastrarToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
             this.cadastrarToolStripMenuItem.Text = "Cadastrar";
             // 
+            // tarefaRealizadaToolStripMenuItem
+            // 
+            this.tarefaRealizadaToolStripMenuItem.Name = "tarefaRealizadaToolStripMenuItem";
+            this.tarefaRealizadaToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
+            this.tarefaRealizadaToolStripMenuItem.Text = "Tarefa realizada";
+            this.tarefaRealizadaToolStripMenuItem.Click += new System.EventHandler(this.tarefaRealizadaToolStripMenuItem_Click);
+            // 
             // visualizarToolStripMenuItem
             // 
             this.visualizarToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -65,17 +72,10 @@
             this.visualizarToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
             this.visualizarToolStripMenuItem.Text = "Visualizar";
             // 
-            // tarefaRealizadaToolStripMenuItem
-            // 
-            this.tarefaRealizadaToolStripMenuItem.Name = "tarefaRealizadaToolStripMenuItem";
-            this.tarefaRealizadaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.tarefaRealizadaToolStripMenuItem.Text = "Tarefa realizada";
-            this.tarefaRealizadaToolStripMenuItem.Click += new System.EventHandler(this.tarefaRealizadaToolStripMenuItem_Click);
-            // 
             // tarefaRealizadaToolStripMenuItem1
             // 
             this.tarefaRealizadaToolStripMenuItem1.Name = "tarefaRealizadaToolStripMenuItem1";
-            this.tarefaRealizadaToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.tarefaRealizadaToolStripMenuItem1.Size = new System.Drawing.Size(155, 22);
             this.tarefaRealizadaToolStripMenuItem1.Text = "Tarefa realizada";
             // 
             // sobreToolStripMenuItem
@@ -91,7 +91,9 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
+            this.MaximizeBox = false;
             this.Name = "Inicial";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro de tarefas realizadas";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

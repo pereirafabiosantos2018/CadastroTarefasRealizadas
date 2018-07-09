@@ -8,7 +8,7 @@ namespace CadastroTarefasRealizadas
     {
         public static SqlConnection AbrirConexaoBanco()
         {
-            SqlConnection sqlConnection = new SqlConnection("Data Source=COMPUTADOR\\SQLEXPRESS;Integrated Security=True;");
+            SqlConnection sqlConnection = new SqlConnection("Data Source=COMPUTADOR\\SQLEXPRESS;Database=TarefasRealizadas;Integrated Security=True;");
             
             try
             {
