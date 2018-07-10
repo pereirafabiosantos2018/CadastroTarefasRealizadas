@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace CadastroTarefasRealizadas
@@ -37,6 +30,16 @@ namespace CadastroTarefasRealizadas
         {
             VisualizarTarefasRealizadas visualizarTarefasRealizadas = new VisualizarTarefasRealizadas();
             visualizarTarefasRealizadas.ShowDialog();
+        }
+
+        /// <summary>
+        /// Sobre o aplicativo
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void sobreToolStripMenuItem_Click(object sender, EventArgs e)
+        { 
+            MessageBox.Show("Sistema feito para cadastrar tarefas realizadas.", "Sobre");
         }
     }
 }

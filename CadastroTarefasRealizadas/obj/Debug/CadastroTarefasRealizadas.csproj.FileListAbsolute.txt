@@ -9,3 +9,4 @@ D:\Projetos Github\CadastroTarefasRealizadas\CadastroTarefasRealizadas\obj\Debug
 D:\Projetos Github\CadastroTarefasRealizadas\CadastroTarefasRealizadas\obj\Debug\CadastroTarefasRealizadas.csproj.CoreCompileInputs.cache
 D:\Projetos Github\CadastroTarefasRealizadas\CadastroTarefasRealizadas\obj\Debug\CadastroTarefasRealizadas.exe
 D:\Projetos Github\CadastroTarefasRealizadas\CadastroTarefasRealizadas\obj\Debug\CadastroTarefasRealizadas.pdb
+D:\Projetos Github\CadastroTarefasRealizadas\CadastroTarefasRealizadas\obj\Debug\CadastroTarefasRealizadas.VisualizarTarefasRealizadas.resources
